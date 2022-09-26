@@ -1,0 +1,161 @@
+body{
+	width: 1920px;
+	font-family: "Lato";
+}
+
+.navigation{
+	max-width: 810px;
+	max-height: 52px;
+	margin: 20px 765px 80px 345px;
+}
+.navigation img{
+	display: inline-block;
+	margin: 13px 60px 0;
+}
+.nav-link{
+	display: inline-block;
+}
+.nav-link span{
+	display: inline-block;
+	margin: 13px 0;
+	font-weight: 700;
+	line-height: 160%;
+	margin-right: 40px;
+	color: #424551;
+	text-transform: capitalize;
+}
+.link.gray{
+	color: #D9D9D9;
+}
+.link.red{
+	color: #FF3F3A
+}
+.content{
+max-width: 810px;
+max-height: 1594px;
+margin-left: 345px;
+}
+h1{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	max-height: 204px;
+	margin-bottom: 92px;
+}
+.image {
+	border-radius: 4px;
+	margin-bottom: 60px;
+}
+.content-bold {
+	color:#1E212C;
+}
+.content-bold.first{
+	margin-bottom: 24px;
+}
+.text.first{
+	max-height: 90px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+}
+.content-regular.shadow{
+	max-height: 182px;
+	margin-bottom: 48px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content-bold .text{
+	max-height: 120px;
+	padding-left: 30px;
+	margin-bottom: 48px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+}
+.content-regular {
+	color: #424551;
+	line-height: 160%;
+}
+.content-regular .text{
+max-height: 52px;
+margin-bottom: 24px;
+}
+ul{
+	min-width: 600px;
+	min-height: 116px;
+	padding-left: 30px;
+	margin-bottom: 24px;
+	word-spacing: 4px;
+}
+h2{
+	margin: 100px auto 30px;
+	max-width: 300px;
+	font-size: 60px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+.part-two{
+	padding: 0 150px;
+}
+.height-weight *{
+	margin: 30px 0;
+	max-width: 400px;
+	min-width: 350px;
+	background-color: #FF3F3A;
+	font-size: 24px;
+}
+.height-weight span{
+	display: inline-block;
+}
+.overflow p{
+	margin: 90px 0 0 auto;
+	max-width: 500px;
+	background-color: aqua;
+	font-size: 24px;
+	border: 2px dotted blue;
+}
+.hidden {
+	max-height: 50px;
+	overflow: hidden;
+}
+.scroll {
+	max-height: 100px;
+	overflow: scroll;
+}
+.auto {
+	min-height: 50px;
+	min-width: 600px;
+	overflow: auto;
+}
+
+.part-three{
+	margin: 50px auto;
+}
+.big-bottom{
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	background-color: black;
+	border-radius: 120px;
+
+}
+.bottom {
+	display: inline-block;
+	margin: 150px;
+	padding: 50px 35px ;
+	font-size: 30px;
+	font-weight: 900;
+	color: white;
+	max-width: 200px;
+	min-height: 200px;
+	border-radius: 100%;
+	background-color: rgb(235, 18, 18);
+	text-align: center;
+	text-transform: uppercase;
+	box-shadow: 0 20px 0 rgb(141, 5, 5);
+	transition: all 0.3s ease 0s;
+}
+.bottom:hover{
+	margin-top: 170px;
+	box-shadow: 0 2px 0 rgb(141, 5, 5);
+}

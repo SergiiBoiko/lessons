@@ -1,0 +1,48 @@
+header>div>a{
+		color: red;
+}
+.block-news{
+	color: rgba(255, 0, 98, 0.808);
+}
+.model-phone{
+	color: blue;
+}
+.model-watch{
+	color:rgb(252, 235, 7)
+	;
+}
+h1>span{
+	background-color: blue;
+}
+.model-phone.pro {
+	background-color: blue;
+	color: gold;
+}
+p{
+	color:green
+}
+.block-news span{
+	background-color: rgb(243, 14, 14);
+	color: black;
+}
+h1,h2{
+	color: brown;
+}
+li.model-earphones{
+	background-color: coral;
+}
+.gadget ~ li{
+	color: crimson;
+}
+.modification + li{
+	color: hotpink;
+}
+#contacts,footer>div>a{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+li.price,
+li.modification{
+	font-size: large;
+}
